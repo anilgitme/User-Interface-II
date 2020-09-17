@@ -1,269 +1,333 @@
-/* Add CSS styling here */
-
-
-/*css reset*/
-
-html,
-html body {
-    width: 100%;
-    min-width: 100%;
-    min-height: 100%;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    font-size: 1em;
-}
-
-*,
-html,
-body,
-div,
-dl,
-dt,
-dd,
-ul,
-ol,
-li,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-pre,
-form,
-label,
-fieldset,
-input,
-p,
-blockquote,
-th,
-td {
-    margin: 0;
-    padding: 0;
-    line-height: 1.2;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
-
-fieldset,
-img {
-    border: 0;
-    /* padding-top: 20px; */
-}
-
-address,
-caption,
-cite,
-code,
-dfn,
-em,
-strong,
-th,
-var {
-    font-style: normal;
-    font-weight: normal;
-}
-
-caption,
-th {
-    text-align: left;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-weight: normal;
-}
-
- :link,
- :visited {
-    text-decoration: none;
-}
-
-q:before,
-q:after {
-    content: '';
-}
-
-
-/* The below restores some sensible defaults */
-
-strong {
-    font-weight: bold;
-}
-
-em {
-    font-style: italic;
-}
-
-a img {
-    border: none;
-}
-
-sup {
-    vertical-align: super;
-    font-size: 60%;
-}
-
-sub {
-    vertical-align: sub;
-    font-size: 60%;
-}
-
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
-
-
-/* end of reset */
-
-html {
-    font-size: 62.5%;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Titillium Web', sans-serif;
-    background-color: lightblue;
-}
-
-.cards div {
-    height: 250px;
-    width: 250px;
-    margin: 20px;
-    border: 1px solid black;
-}
-
-h1 {
-    font-size: 4.5rem;
-    padding: 2rem;
-    font-weight: bold;
-    color: white;
-}
-
-.headerimg {
-    padding-left: 3rem;
-}
-
-nav {
-    padding: 2rem;
-    color: white;
-    display: flex;
-}
-
-.first-section {
-    padding: 20px;
-    text-align: center;
-}
-
-h2 {
-    font-size: 3rem;
-    text-align: center;
-    color: red;
-    padding-bottom: 1rem;
-}
-
-button {
-    padding: 1rem;
-}
-
-button:hover {
-    background: white;
-    color: yellow;
-}
-
-.cards {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.flex-item img {
-    width: 100%;
-    height: 100%;
-}
-
-p {
-    padding: 10px;
-    font-size: 2.3rem;
-}
-
-header {
-    background-color: black;
-}
-
-.about-me {
-    color: blue;
-}
-
-.projects div {
-    height: 250px;
-    width: 250px;
-    margin: 20px;
-    border: 1px solid black;
-}
-
-.projects {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.flex-project img {
-    width: 100%;
-    height: 100%;
-}
-
-footer {
-    /* text-align: center; */
-    padding: 30px;
-    font-size: 2.2rem;
-    background-color: black;
-}
-
-h3 {
-    color: white;
-    padding: .5rem;
-}
-
-@media (max-width: 800px) {
-    .nav-bar {
-        text-align: center;
-    }
-    nav {
-        flex-direction: column;
-    }
-    .first-section {
-        text-align: center;
-    }
-}
-
-@media (max-width: 500px) {
-    .nav-bar {
-        text-align: center;
-    }
-    nav {
-        flex-direction: column;
-    }
-    .first-section {
-        text-align: center;
-    }
-}
+                        /* Add CSS styling here */
+                        /*css reset*/
+                        
+                        html,
+                        html body {
+                            width: 100%;
+                            min-width: 100%;
+                            min-height: 100%;
+                            -webkit-box-sizing: border-box;
+                            -moz-box-sizing: border-box;
+                            box-sizing: border-box;
+                            font-size: 1em;
+                        }
+                        
+                        *,
+                        html,
+                        body,
+                        div,
+                        dl,
+                        dt,
+                        dd,
+                        ul,
+                        ol,
+                        li,
+                        h1,
+                        h2,
+                        h3,
+                        h4,
+                        h5,
+                        h6,
+                        pre,
+                        form,
+                        label,
+                        fieldset,
+                        input,
+                        p,
+                        blockquote,
+                        th,
+                        td {
+                            margin: 0;
+                            padding: 0;
+                            line-height: 1.2;
+                            -webkit-box-sizing: border-box;
+                            -moz-box-sizing: border-box;
+                            box-sizing: border-box;
+                        }
+                        
+                        table {
+                            border-collapse: collapse;
+                            border-spacing: 0;
+                        }
+                        
+                        fieldset,
+                        img {
+                            border: 0;
+                            /* padding-top: 20px; */
+                        }
+                        
+                        address,
+                        caption,
+                        cite,
+                        code,
+                        dfn,
+                        em,
+                        strong,
+                        th,
+                        var {
+                            font-style: normal;
+                            font-weight: normal;
+                        }
+                        
+                        caption,
+                        th {
+                            text-align: left;
+                        }
+                        
+                        h1,
+                        h2,
+                        h3,
+                        h4,
+                        h5,
+                        h6 {
+                            font-weight: normal;
+                        }
+                        
+                         :link,
+                         :visited {
+                            text-decoration: none;
+                        }
+                        
+                        q:before,
+                        q:after {
+                            content: '';
+                        }
+                        /* The below restores some sensible defaults */
+                        
+                        strong {
+                            font-weight: bold;
+                        }
+                        
+                        em {
+                            font-style: italic;
+                        }
+                        
+                        a img {
+                            border: none;
+                        }
+                        
+                        sup {
+                            vertical-align: super;
+                            font-size: 60%;
+                        }
+                        
+                        sub {
+                            vertical-align: sub;
+                            font-size: 60%;
+                        }
+                        
+                        table {
+                            border-collapse: collapse;
+                            border-spacing: 0;
+                        }
+                        /* end of reset */
+                        
+                        html {
+                            font-size: 62.5%;
+                        }
+                        
+                        * {
+                            box-sizing: border-box;
+                        }
+                        
+                        body {
+                            font-family: 'Titillium Web', sans-serif;
+                            background-color: lightblue;
+                        }
+                        
+                        .cards div {
+                            height: 250px;
+                            width: 250px;
+                            margin: 20px;
+                            border: 1px solid black;
+                        }
+                        
+                        h1 {
+                            font-size: 4.5rem;
+                            padding: 2rem;
+                            font-weight: bold;
+                            color: white;
+                        }
+                        
+                        nav {
+                            padding: 2rem;
+                            color: white;
+                            display: flex;
+                        }
+                        
+                        h2 {
+                            font-size: 3rem;
+                            text-align: center;
+                            color: red;
+                            padding-bottom: 1rem;
+                        }
+                        
+                        button {
+                            padding: 1rem;
+                        }
+                        
+                        button:hover {
+                            background: white;
+                            color: yellow;
+                        }
+                        
+                        .cards {
+                            display: flex;
+                            align-items: center;
+                            width: 100%;
+                            flex-wrap: wrap;
+                            justify-content: center;
+                            margin: 0 auto;
+                        }
+                        
+                        p {
+                            padding: 10px;
+                            font-size: 2.3rem;
+                        }
+                        
+                        header {
+                            background-color: black;
+                        }
+                        
+                        .about-me {
+                            color: blue;
+                        }
+                        
+                        .projects div {
+                            width: 100%;
+                            margin: 0 auto;
+                            border: 1px solid black;
+                        }
+                        
+                        .projects {
+                            display: flex;
+                            align-items: center;
+                            width: 100%;
+                            flex-wrap: wrap;
+                            justify-content: center;
+                        }
+                        
+                        .flex-project img {
+                            width: 100%;
+                            height: auto;
+                        }
+                        
+                        footer {
+                            /* text-align: center; */
+                            padding: 30px;
+                            font-size: 2.2rem;
+                            background-color: black;
+                        }
+                        
+                        h3 {
+                            color: white;
+                            padding: .5rem;
+                        }
+                        
+                        a {
+                            font-size: 2rem;
+                        }
+                        
+                        .container {
+                            width: 100%;
+                            height: 100%;
+                        }
+                        
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                        
+                        .image-container {
+                            /* padding-left: 3rem; */
+                            display: flex;
+                            justify-content: center;
+                            /* width: 500px; */
+                        }
+                        
+                        .intro-content {
+                            padding: 20px;
+                        }
+                        
+                        .button {
+                            align-content: center;
+                            display: flex;
+                            justify-content: center;
+                            /* flex-direction: column; */
+                        }
+                        
+                        .image-container img {
+                            width: 600px;
+                            padding: 20px
+                        }
+                        
+                        .projects-button {
+                            display: flex;
+                            justify-content: center;
+                        }
+                        
+                        .flex-item {
+                            width: 100%;
+                            height: auto;
+                        }
+                        
+                        @media (max-width: 800px) {
+                            .flex-item {
+                                width: 80%;
+                                flex-wrap: nowrap;
+                            }
+                            .container {
+                                width: 80%;
+                            }
+                            .nav-bar {
+                                text-align: center;
+                            }
+                            nav {
+                                flex-direction: column;
+                                justify-content: center;
+                            }
+                            .image-container {
+                                flex-flow: column wrap;
+                            }
+                        }
+                        
+                        @media (max-width: 500px) {
+                            .container {
+                                width: 50%;
+                            }
+                            .nav-bar {
+                                text-align: center;
+                            }
+                            nav {
+                                flex-direction: column;
+                                justify-content: center;
+                            }
+                            .flex-item {
+                                width: 50%;
+                            }
+                            .image-container {
+                                flex-flow: column wrap;
+                            }
+                            /* .cards {
+                                flex-flow: nowrap;
+                            } */
+                        }
+                        
+                        @media (max-width: 300px) {
+                            .flex-item {
+                                width: 40%;
+                            }
+                            .container {
+                                width: 40%;
+                            }
+                            .nav-bar {
+                                text-align: center;
+                            }
+                            nav {
+                                flex-direction: column;
+                                justify-content: center;
+                            }
+                            .image-container {
+                                flex-flow: column wrap;
+                            }
+                        }
